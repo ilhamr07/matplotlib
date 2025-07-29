@@ -21,7 +21,7 @@ t1,y1 = sinusGenerator(1,1,4,0)
 plt.plot(t1,y1)
 
 #setting axis panjang dan lebar dari plot nya
-plt.axis(0,4,-1,1)#xMin,xMax,yMin,yMax
+plt.axis([0,4,-1,1])#xMin,xMax,yMin,yMax
 
 # 3. show plot
 
