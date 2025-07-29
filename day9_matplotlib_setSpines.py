@@ -8,8 +8,8 @@ sudut = np.arange(0,360,1)
 y = np.sin(np.deg2rad(sudut))
 
 #membuat plot
-plt.plot(sudut,y,label='sin(0)', color='b')
-plt.legend()
+plt.plot(sudut,y,label='sin(0)',color='b')
+plt.legend(loc='lower left')
 
 #setting axis panjang dan lebar dari plot nya
 #plt.axis([0,360,-1,1])#xMin,xMax,yMin,yMax

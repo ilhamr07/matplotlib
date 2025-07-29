@@ -21,7 +21,7 @@ t2,y2 = sinusGenerator(1,1,4,90)
 
 plt.plot(t1,y1, label='sin(0)')
 plt.plot(t2,y2, label='sin(90)')
-plt.legend()
+plt.legend(loc = 'upper center')#setting posisi legend
 
 # 3. show plot
 
