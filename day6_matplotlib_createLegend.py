@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 """
 	1. Membuat data
 	2. Membuat plot
-	3. Menampilkan plot
+	3. Menampilkan plott
 """
 
 # 1. Membuat data (sin(2wt + theta))
